@@ -22,7 +22,7 @@
     align-items: center;
     text-align: center;
     color: goldenrod;
-    padding: 2rem;
+    padding: 10rem;
     animation: fadeInFromTop 1s ease-in-out;
 }
 
@@ -51,7 +51,8 @@
 .vcc-button {
     background-color: gold;
     color: black;
-    border: none;
+    border: 2px solid #c99d47;
+    border-radius: 8px;
     padding: 0.8rem 2rem;
     font-size: 1rem;
     cursor: pointer;
@@ -59,8 +60,9 @@
 }
 
 .vcc-button:hover {
-    background-color: #d4af37;
-    transform: scale(1.05);
+    background-color: #c99d47;
+    transform: scale(1.10);
+    box-shadow: 0 0px 25px #ffdf0099;
 }
 
 /* Leagues Section */
@@ -115,7 +117,7 @@
 
 .vcc-league-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(255, 223, 0, 0.6);
+    box-shadow: 0 0px 30px #ffdf0099;
 }
 
 .vcc-league-logo {

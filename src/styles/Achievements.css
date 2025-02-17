@@ -36,7 +36,7 @@
   border: 2px solid gold;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: fadeInFromBottom 1.5s ease-out;
 }

@@ -1,7 +1,7 @@
 /* General Navbar Styles (Desktop and Shared Styles) */
 .navbar {
     width: 100%; 
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background-color: black;
     color: gold;
     display: flex;
@@ -67,7 +67,7 @@
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 0rem;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -187,7 +187,7 @@
     .hamburger {
         display: flex;
         flex-direction: column;
-        gap: 0.3rem;
+        gap: 0.25rem;
         cursor: pointer;
         position: absolute;
         top: 1rem;
